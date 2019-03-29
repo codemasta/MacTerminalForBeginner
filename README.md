@@ -10,7 +10,7 @@ Bash is the default command line shell on mac , linux.  Bourne Again Shell.
 Bash is a simple programming/scripting language
 
 ## Commands
-pwd,cd and ls
+`pwd,cd and ls`
 ___
 * pwd => present working directory
 * ls => list file/folders in the current directory
@@ -22,7 +22,7 @@ ___
 * cd ~ or cd =>  takes us to the root page
 
 ## The Basics
-Cleaning up (clear and exiting)
+ ##### Cleaning up (clear and exiting)
 ___
 * clear => clears the screen , this pushes up the screen
 * cmd + k => clears the session totally 
@@ -37,7 +37,7 @@ ___
    `man ls`  up or down to navigate and q to exit
 or google : ls command
 
-Looking or Reviewing files 
+##### Looking or Reviewing files 
 ___
 * cat : come from concatenate
     `cat filename`
@@ -54,30 +54,30 @@ command q => to quit textmate
 open ~ => opens the directory 
 open fileName.txt =>  the file is open with the default file editor
 ## Create create , move , rename and delete files
-Create file
+##### Create file
 ____
 touch fileName.txt => to create a file
 To update the timestamp of a file , ie an application looking for updated files will need this functionality  
 Just do a touch command on the existing file it will update the timestamp of the file
-touch existingFile.txt  
-Move file
+touch existingFile.txt    
+##### Move file
 ___
 mv currentFileName.txt newFileName.txt => to rename a file
 mv currentFileName.txt DirectoryName => to move the file to a new directory
-Copy file
+##### Copy file
 ___
 cp CopyContentFrom.txt CopyContentTo.txt
 cp Seun.txt Seun2.txt
-Remove file
+##### Remove file
 ___
 rm fileName.txt
 rm *-2.txt (remove any file that ends with -2.txt)
 ### Create and delete directories
-Create directory
+##### Create directory
 ___
 mkdir DirectoryName
 We can `cd` into it then `cd ..` to move out of it 
-Delete directory
+##### Delete directory
 ___
 rmdir DirectoryName 
 Tree directory
@@ -116,7 +116,6 @@ These are 2 commands
 ls -l : list the content of the current directory
 |     : send the content of the command into another command
 tee   : send the content into file
-
 
 
 
