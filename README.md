@@ -1,4 +1,4 @@
-# MacTerminalForBeginner
+# Terminal For Beginner (Mac/Linux)
 For those who want to learn more about the terminal commands on Mac/Linux
 ___
 ___
